@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: "Lato", sans-serif;
+    color:white;
+    background-color: #2f3542;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#author{
+    opacity: 0.8;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    transition: 0.2s;
+}
+
+#author a{
+    color:white;
+    text-decoration: underline;
+}
+
+#author:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: 0.2s;
+}
+
+h1{
+    color:#ff7979;
+}
+
+.score{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#correct-answer{
+    color:#2ecc71;
+
+}
+#correct-answer span{
+    color:#fff;
+
+}
+
+
+#wrong-answer{
+    color:#e74c3c;
+
+}
+#wrong-answer span{
+    color:#fff;
+
+}
+
+#colourValue{
+    color: white;
+}
+
+.container{
+    background-color: rgba(0,0,0,0.2);
+    padding:30px;
+    border-radius: 30px;
+}
+
+.colourButton{
+    background-color: gray;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: none;
+    margin: 10px;
+    border:2px solid white;
+}
+
+.colourButton:active, .colourButton:focus{
+    outline:none;
+}
+
+
+.hover{
+    transform: scale(1);
+    transition: 0.1s;
+}
+.hover:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+#answer{
+    color:#535c68;
+    text-align: center;
+    display:block;
+    margin:30px;
+}
+
+#buttonWrapper{
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+#colourValue{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#answer{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#reset{
+    margin:0 auto;
+    text-align: center;
+}
+
+#resetButton{
+    border-radius: 5px;
+    border:none;
+    box-shadow: none;
+    background-color: #6ab04c;
+    font-family: "Lato", sans-serif;
+    color:white;
+    font-size:15px;
+    padding: 10px;
+
+    transition: 0.2s;
+}
+
+#resetButton:hover{
+    opacity:0.9;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#resetButton:active, #resetButton:focus{
+   outline:none;
+}
